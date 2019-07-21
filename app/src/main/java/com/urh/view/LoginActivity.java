@@ -83,6 +83,8 @@ public class LoginActivity extends AppCompatActivity {
                 if (!response.isSuccessful()) {
                     String error = getString(R.string.userOPassIncorrecto);
                     Toast.makeText(LoginActivity.this, error, Toast.LENGTH_LONG).show();
+                    hideProgressBar();
+
                     if(!viewInitialized)
                     inicializarVista();
                 } else {

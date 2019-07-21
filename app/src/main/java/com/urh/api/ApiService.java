@@ -21,7 +21,7 @@ public interface ApiService {
 
     @POST("user/login")
     Call<Usuario> login(@Body Usuario loginBody);
-    
+
     @GET("users")
     Call<Usuario> getUserInfo(@Header("Authorization") String authHeader);
 

@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?android:selectableItemBackground"
     android:orientation="vertical"
     android:padding="5dp">
 
@@ -27,4 +26,9 @@
             android:layout_gravity="center_vertical"
             android:orientation="horizontal" />
 
+        <ImageView
+            android:layout_width="61dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:src="@drawable/scroll" />
 </LinearLayout>
